@@ -33,7 +33,7 @@ header{
         display: flex;
         align-items: center;
         height:20%;
-        border-bottom:1px solid rgb(20, 20, 20);
+        border-bottom:0.5px solid rgb(20, 20, 20);
 
         ul{
             display: flex;
@@ -74,6 +74,21 @@ header{
                 }
             }
 
+        }
+    }
+
+    background-image:url(/ws/Geity/media/images/stocks/image_image_banner_b.png);
+    background-size:100% 100% ;
+}
+header.is_first_page{
+
+    ul{
+
+        li{
+
+            a{
+                color:white;
+            }
         }
     }
 }

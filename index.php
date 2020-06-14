@@ -11,7 +11,7 @@
 </head>
 <body>
     <article class="headband"><p>MESSAGE PROMOTIONNEL ICI </p></article>
-    <header class="banner" id="Top">
+    <header class="banner is_first_page" id="Top">
         <?php 
             include_once('includes/navigation.php')
         ?>
