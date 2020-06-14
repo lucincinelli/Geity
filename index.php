@@ -18,9 +18,53 @@
     </header>
     <main>
         <section class="show-on">
+            <h1>Geity</h1>
+            <h2 class='title'>Meilleurs ventes</h2>
+            <aside>
+                <article>
+                    <img src="<?=$root?>media/images/watchs/w1.png" alt="Photo du Produit" class="products_images">
+                    <ul>
+                        <li><a class="nom_article" href='#'>Geity - Montre W1</a></li>
+                        <li><p class="prix">€110,00</p></li>
+                    </ul>
+                </article>
+
+                <article>
+                    <img src="<?=$root?>media/images/watchs/w2.png" alt="Photo du Produit" class="products_images">
+                    <ul>
+                        <li><a class="nom_article" href='#'>Geity - Montre W2</a></li>
+                        <li><p class="prix">€110,00</p></li>
+                    </ul>
+                </article>
+
+                <article>
+                    <img src="<?=$root?>media/images/watchs/w3.png" alt="Photo du Produit" class="products_images">
+                    <ul>
+                        <li><a class="nom_article" href='#'>Geity - Montre W3</a></li>
+                        <li><p class="prix">€130,00</p></li>
+                    </ul>
+                </article>
+                    
+                <article>
+                    <img src="<?=$root?>media/images/watchs/w4.png" alt="Photo du Produit" class="products_images">
+                    <ul>
+                        <li><a class="nom_article" href='#'>Geity - Montre W4</a></li>
+                        <li><p class="prix">€130,00</p></li>
+                    </ul>
+                </article>
+            </aside>
         </section>
 
         <section class="promo">
+            <div class="promo" id="promo">
+                <h3>Geity -</h3>
+                <h2>PROMOS EN <br/>CE MOMENT</h2>
+                <p>
+                Pour célébrer notre <strong>10ème anniversaire</strong>,
+                 tentez votre chance et gagner plein de cadeaux
+                  et peut-être <strong>un séjour à Miami dans un hôtel 5 étoiles.</strong>
+                </p>
+            </div>
         </section>
 
         <section class="collection">

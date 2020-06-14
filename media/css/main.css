@@ -7,7 +7,7 @@
     max-width: 100%; }
 
 html, body {
-  width: 100vw;
+  max-width: 100vw;
   height: 100vh; }
 
 article.headband {
@@ -54,5 +54,69 @@ header {
 
 header.is_first_page ul li a {
   color: white; }
+
+main {
+  height: 170%;
+  width: 100%; }
+  main h2.title {
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    letter-spacing: 3px;
+    width: fit-content;
+    margin: auto; }
+  main section.show-on {
+    height: 33%;
+    text-align: center; }
+    main section.show-on h1 {
+      margin: 5% 0 1% 0;
+      font-weight: normal;
+      font-size: 1.5em;
+      text-transform: uppercase;
+      letter-spacing: 3px; }
+    main section.show-on aside {
+      width: 75%;
+      margin: 5% auto 0 auto;
+      display: flex;
+      justify-content: space-between; }
+      main section.show-on aside article img {
+        width: 80%; }
+      main section.show-on aside article ul {
+        list-style-type: none; }
+        main section.show-on aside article ul li {
+          width: 80%;
+          margin: 2% auto 0 auto;
+          text-align: left; }
+          main section.show-on aside article ul li a.nom_article {
+            font-weight: 600;
+            letter-spacing: 3px;
+            text-decoration: none;
+            color: black; }
+  main section.promo {
+    height: 33%;
+    background-image: url(/ws/Geity/media/images/stocks/image_image_banner_b.png);
+    background-size: 100% 100%;
+    position: relative; }
+    main section.promo div.promo {
+      position: absolute;
+      top: 15.5%;
+      left: 12.5%;
+      height: 55%;
+      width: 20%;
+      background-color: white;
+      padding: 2%; }
+      main section.promo div.promo h3 {
+        font-weight: normal;
+        letter-spacing: 3px; }
+      main section.promo div.promo h2 {
+        margin-top: 2%;
+        font-size: 2em;
+        font-weight: 900;
+        letter-spacing: 3px; }
+      main section.promo div.promo p {
+        margin-top: 7%;
+        line-height: 40px; }
+  main section.collection {
+    background-color: #515191;
+    height: 33%; }
 
 /*# sourceMappingURL=main.css.map */
