@@ -1,1 +1,1 @@
-<?php $root ='/ws/watchs/';
+<?php $root ='/ws/GEITY/'; ?>
