@@ -1,0 +1,76 @@
+html, body {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex; }
+
+h1.bvn {
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5%; }
+  h1.bvn span {
+    font-weight: 500; }
+    h1.bvn span a {
+      border-bottom: 3px solid black;
+      text-decoration: none;
+      color: black; }
+
+section.sidebar {
+  width: 20%;
+  height: 100%;
+  background-color: #eef5ff;
+  border-right: 0.5px solid #eef5ff;
+  border-radius: 0 15px 15px 0; }
+
+section.container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  position: relative; }
+  section.container article.contained_container {
+    position: relative;
+    top: 5%;
+    width: 94%;
+    height: 90%;
+    margin: auto; }
+    section.container article.contained_container div.more_admin {
+      position: relative;
+      top: 3%;
+      left: 3%;
+      width: 30%;
+      height: 35%;
+      background-color: #e4e4e4;
+      border-radius: 5px; }
+      section.container article.contained_container div.more_admin h2 {
+        text-transform: uppercase;
+        font-size: 1.2em;
+        text-align: center;
+        padding-top: 5%; }
+      section.container article.contained_container div.more_admin form {
+        margin-top: 5%; }
+        section.container article.contained_container div.more_admin form label {
+          margin: 1% auto 0 auto;
+          display: block;
+          text-align: center;
+          font-size: 1.35em; }
+          section.container article.contained_container div.more_admin form label input {
+            margin-top: 1%;
+            width: 50%;
+            padding: 2%;
+            border: 0.5px solid lightgrey;
+            background-color: white;
+            border-radius: 5px;
+            font-size: 0.75em; }
+          section.container article.contained_container div.more_admin form label input[type='submit'] {
+            background-color: #3464ff;
+            color: white;
+            font-weight: 700;
+            font-size: 0.75em;
+            margin-top: 8%;
+            width: 30%;
+            cursor: pointer; }
+            section.container article.contained_container div.more_admin form label input[type='submit']:hover {
+              background-color: #6387fd; }
+
+/*# sourceMappingURL=admin.css.map */
