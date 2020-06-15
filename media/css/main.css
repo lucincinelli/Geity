@@ -114,9 +114,84 @@ main {
         letter-spacing: 3px; }
       main section.promo div.promo p {
         margin-top: 7%;
+        font-size: 1.3em;
         line-height: 40px; }
   main section.collection {
-    background-color: #515191;
     height: 33%; }
+    main section.collection aside.container {
+      position: relative;
+      margin: auto;
+      width: 75%;
+      height: 100%;
+      display: flex; }
+      main section.collection aside.container article.col1_2 {
+        position: relative;
+        top: 15.5%;
+        width: 50%;
+        height: 100%; }
+        main section.collection aside.container article.col1_2 div.coll {
+          height: 70%;
+          width: 65%;
+          padding: 2%; }
+          main section.collection aside.container article.col1_2 div.coll h3 {
+            margin-top: 7%;
+            font-weight: normal;
+            letter-spacing: 3px; }
+          main section.collection aside.container article.col1_2 div.coll h2 {
+            margin-top: 2%;
+            font-size: 2em;
+            font-weight: 900;
+            letter-spacing: 3px; }
+          main section.collection aside.container article.col1_2 div.coll p {
+            margin-top: 7%;
+            margin-bottom: 11%;
+            font-size: 1.3em;
+            line-height: 40px; }
+          main section.collection aside.container article.col1_2 div.coll a.bouton {
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            padding: 3% 7% 3% 7%;
+            font-weight: 900; }
+            main section.collection aside.container article.col1_2 div.coll a.bouton:hover span {
+              transition-duration: 2s;
+              display: inline-block; }
+            main section.collection aside.container article.col1_2 div.coll a.bouton span {
+              display: none; }
+
+footer {
+  height: 35%;
+  display: flex;
+  background-color: #141414; }
+  footer section.footer_3 {
+    height: 100%;
+    width: 33%;
+    color: white; }
+    footer section.footer_3:nth-child(1) {
+      position: relative; }
+      footer section.footer_3:nth-child(1) p {
+        position: relative;
+        left: 20%;
+        top: 35%; }
+        footer section.footer_3:nth-child(1) p img {
+          margin-bottom: 2%; }
+  footer section.col2_3 {
+    position: relative;
+    top: 25%;
+    height: 75%; }
+    footer section.col2_3 h3 {
+      font-size: 1.5em;
+      letter-spacing: 3px;
+      margin-bottom: 4%;
+      font-weight: 900; }
+    footer section.col2_3 ul {
+      list-style-type: none; }
+      footer section.col2_3 ul li {
+        margin-top: 5%;
+        font-weight: 300; }
+        footer section.col2_3 ul li a {
+          text-decoration: none;
+          color: white;
+          font-weight: 300; }
 
 /*# sourceMappingURL=main.css.map */

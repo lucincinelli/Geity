@@ -21,37 +21,45 @@
             <h1>Geity</h1>
             <h2 class='title'>Meilleurs ventes</h2>
             <aside>
-                <article>
-                    <img src="<?=$root?>media/images/watchs/w1.png" alt="Photo du Produit" class="products_images">
-                    <ul>
-                        <li><a class="nom_article" href='#'>Geity - Montre W1</a></li>
-                        <li><p class="prix">€110,00</p></li>
-                    </ul>
-                </article>
+                <a href="">
+                    <article>
+                        <img src="<?=$root?>media/images/watchs/w1.png" alt="Photo du Produit" class="products_images">
+                        <ul>
+                            <li><a class="nom_article" href='#'>Geity - Montre W1</a></li>
+                            <li><p class="prix">€110,00</p></li>
+                        </ul>
+                    </article>
+                </a>
 
-                <article>
-                    <img src="<?=$root?>media/images/watchs/w2.png" alt="Photo du Produit" class="products_images">
-                    <ul>
-                        <li><a class="nom_article" href='#'>Geity - Montre W2</a></li>
-                        <li><p class="prix">€110,00</p></li>
-                    </ul>
-                </article>
+                <a href="">
+                    <article>
+                        <img src="<?=$root?>media/images/watchs/w2.png" alt="Photo du Produit" class="products_images">
+                        <ul>
+                            <li><a class="nom_article" href='#'>Geity - Montre W2</a></li>
+                            <li><p class="prix">€110,00</p></li>
+                        </ul>
+                    </article>
+                </a>
 
-                <article>
-                    <img src="<?=$root?>media/images/watchs/w3.png" alt="Photo du Produit" class="products_images">
-                    <ul>
-                        <li><a class="nom_article" href='#'>Geity - Montre W3</a></li>
-                        <li><p class="prix">€130,00</p></li>
-                    </ul>
-                </article>
-                    
-                <article>
-                    <img src="<?=$root?>media/images/watchs/w4.png" alt="Photo du Produit" class="products_images">
-                    <ul>
-                        <li><a class="nom_article" href='#'>Geity - Montre W4</a></li>
-                        <li><p class="prix">€130,00</p></li>
-                    </ul>
-                </article>
+                <a href="">
+                    <article>
+                        <img src="<?=$root?>media/images/watchs/w3.png" alt="Photo du Produit" class="products_images">
+                        <ul>
+                            <li><a class="nom_article" href='#'>Geity - Montre W3</a></li>
+                            <li><p class="prix">€130,00</p></li>
+                        </ul>
+                    </article>
+                </a>
+
+                <a href="">
+                    <article>
+                        <img src="<?=$root?>media/images/watchs/w4.png" alt="Photo du Produit" class="products_images">
+                        <ul>
+                            <li><a class="nom_article" href='#'>Geity - Montre W4</a></li>
+                            <li><p class="prix">€130,00</p></li>
+                        </ul>
+                    </article>
+                </a>
             </aside>
         </section>
 
@@ -60,38 +68,32 @@
                 <h3>Geity -</h3>
                 <h2>PROMOS EN <br/>CE MOMENT</h2>
                 <p>
-                Pour célébrer notre <strong>10ème anniversaire</strong>,
-                 tentez votre chance et gagner plein de cadeaux
-                  et peut-être <strong>un séjour à Miami dans un hôtel 5 étoiles.</strong>
+                    Pour célébrer notre <strong>10ème anniversaire</strong>,
+                    tentez votre chance et gagner plein de cadeaux
+                    et peut-être <strong>un séjour à Miami dans un hôtel 5 étoiles.</strong>
                 </p>
             </div>
         </section>
 
         <section class="collection">
-        </section>
-    </main>    
-    <footer>
-        <section class="footer/3">
-            <p><img src="" alt="LOGO"></p>
-            <p>COPYRIGHT</p>
-        </section>
-        <section class="footer/3">
-            <h3>INFORMATIONS</h3>
-            <ul>
-                <li><a href="" title="">Condition Générales de Ventes</a></li>
-                <li><a href="" title="">Politique de confitiendalité</a></li>
-                <li><a href="" title="">Termes & Conditions de Promo</a></li>
-                <li><a href="" title="">Mentions légales</a></li>
-            </ul>
-        </section>
-        <section class="footer/3">
-            <h3>SERVICE CLIENT</h3>
-            <ul>
-                <li><p>cincinellilu@gmail.com</p></li>
-                <li><p>Lundi au Vendredi : 9h - 18h</p></li>
-            </ul>
-        </section>
+            <aside class="container">
+                <article class="col1_2">
+                    <img src="<?=$root?>media/images/stocks/image_image.png"" alt="Photo de la collection" class="coll_photo">
+                </article>
+                <article class="col1_2">
+                    <div class="coll" id="coll">
+                        <h3>Geity -</h3>
+                        <h2>EDITION 2020</h2>
+                        <p>Profitez de notre nouvelle collection, choisissez parmi un large choix de montre dès maintenant!</p>
 
-    </footer>
+                        <a href="" class="bouton">Voir <span>&nbsp;&nbsp;→</span></a>
+                    </div>
+                </article>
+            </aside>
+        </section>
+    </main> 
+    <?php 
+            include_once('includes/footer.inc.php')
+        ?>   
 </body>
 </html>

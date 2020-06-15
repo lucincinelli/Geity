@@ -180,13 +180,123 @@ main{
 
             p{
                 margin-top:7%;
+                font-size: 1.3em;
                 line-height: 40px;
             }
         }
     }
 
     section.collection{
-        background-color:rgb(81, 81, 145);
         height:33%;
+
+        aside.container{
+            position:relative;
+            margin:auto;
+            width:75%;
+            height:100%;
+            display:flex;
+
+            article.col1_2{
+                position:relative;
+                top:15.5%;
+                width:50%;
+                height:100%;
+
+                div.coll{
+                    height:70%;
+                    width:65%;
+                    padding:2%;
+
+                    h3{
+                        margin-top:7%;
+                        font-weight: normal;
+                        letter-spacing: 3px;
+                    }
+        
+                    h2{
+                        margin-top:2%;
+                        font-size: 2em;
+                        font-weight: 900;
+                        letter-spacing: 3px;
+                    }
+        
+                    p{
+                        margin-top:7%;
+                        margin-bottom:11%;
+                        font-size: 1.3em;
+                        line-height: 40px;
+                    }
+                    a.bouton{
+                        text-decoration: none;
+                        color:white;
+                        background-color:black;
+                        padding:3% 7% 3% 7%;
+                        font-weight: 900;
+
+                        &:hover span{
+                            transition-duration:2s;
+                            display:inline-block;
+                        }
+                        span{
+                            display:none;
+                        }
+                    }
+                }
+            }
+        }
     }
+}
+
+footer{
+    height:35%;
+    display:flex;
+    background-color: #141414;
+
+    section.footer_3{
+        height:100%;
+        width:33%;
+        color:white;
+
+        &:nth-child(1){
+            position:relative;
+
+            p{
+                position:relative;
+                left:20%;
+                top:35%;
+                img{
+                    margin-bottom:2%;
+                }
+            }
+        }
+    }
+    section.col2_3{
+        position:relative;
+        top:25%;
+        height:75%;
+
+        h3{
+            font-size:1.5em;
+            letter-spacing: 3px;
+            margin-bottom:4%;
+            font-weight: 900;
+        }
+
+        ul{
+            list-style-type: none;
+            
+            li{
+                margin-top:5%;
+                font-weight: 300;
+
+                a{
+                    text-decoration: none;
+                    color:white;
+                font-weight: 300;
+
+                }
+            }
+        }
+    }
+    
 }
